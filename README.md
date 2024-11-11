@@ -81,7 +81,7 @@ open up you local host and port
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/waste
+    - Save the URI: 699475913219.dkr.ecr.ap-south-1.amazonaws.com/waste
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -115,11 +115,11 @@ open up you local host and port
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = ap-south-1
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = waste
 
 
 
